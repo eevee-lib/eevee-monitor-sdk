@@ -1,0 +1,6 @@
+{
+    "threshold": 5,
+    "ignore": ["test", "build", "dist", "**/*.min.js", "**/*.map", "./*.js"],
+    "reporters": ["html", "console", "time"],
+    "blame": true
+}
