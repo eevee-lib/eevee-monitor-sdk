@@ -54,6 +54,7 @@
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
     "cross-env": "^7.0.3",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
@@ -80,6 +81,11 @@
     "extends": [
       "@commitlint/config-conventional"
     ],
+    "config": {
+      "commitizen": {
+        "path": "node_modules/cz-conventional-changelog"
+      }
+    },
     "rules": {
       "subject-case": [
         0
